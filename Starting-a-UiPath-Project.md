@@ -2,6 +2,7 @@
 title: Starting a UiPath Project
 layout: default
 nav_order: 2
+nav_exclude: true
 ---
 # {{ page.title }}
 {: .no_toc }

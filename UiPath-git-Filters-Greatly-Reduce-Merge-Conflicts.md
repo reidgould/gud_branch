@@ -2,6 +2,7 @@
 title: UiPath git Filters - Greatly Reduce Merge Conflicts
 layout: default
 nav_order: 3
+nav_exclude: true
 ---
 # {{ page.title }}
 {: .no_toc }

@@ -190,4 +190,4 @@ You can read more in the [Git Internals](https://git-scm.com/book/en/v2/Git-Inte
 
 # Next
 
-[Starting a UiPath Project](./Starting-a-UiPath-Project.html)
+[clone.sh](./clone.sh.html)
