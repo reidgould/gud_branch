@@ -21,7 +21,7 @@ The strategies below are __tree__ based strategies, not __lane__ based strategie
 
 # Strategies
 
-## [Mainline with Semantic Versioning](./Mainline-with-Semantic-Versioning.html)
+## [Mainline with Semantic Versioning](./Mainline-with-Semantic-Versioning/Mainline-with-Semantic-Versioning.html)
 
 **semver branches**
 
