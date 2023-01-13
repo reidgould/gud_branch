@@ -24,7 +24,7 @@ parent: Branching Strategies
 
 ## Description
 
-UiPath publishes all project files in the process distribution package. It is advisable to prevent test code from being published into production environments. Test code can be added into the project folder only at testing time by use of a `test/...` branch. This also enables some advanced testing techniques like workflow mocking.
+There are situations where it can be useful to have some content present in the repository when testing, but not at build and deploy time. Test code can be added into the project folder only at testing time by use of a `test/...` branch.
 
 ## Example Log Graph
 
@@ -64,7 +64,7 @@ Example log graph showing a test branch (marked with `»`).
   *   62c16cf Merge branch "feat/repoSetup".
   |\  
   | * a38e260 End branch "feat/repoSetup".
-  | * d20a5c1 Create blank UiPath Process and add standard dependencies.
+  | * d20a5c1 Create blank project and add standard dependencies.
   | * fd45a8f Create ".gitignore and ".gitattributes".
   | * caa16d4 Start branch "feat/repoSetup".
   |/  

@@ -57,7 +57,7 @@ The following log graph shows two `semver/minor` branches (marked with `»`) bef
   *   62c16cf Merge branch "feat/repoSetup".
   |\  
   | * a38e260 End branch "feat/repoSetup".
-  | * d20a5c1 Create blank UiPath Process and add standard dependencies.
+  | * d20a5c1 Create blank project and add standard dependencies.
   | * fd45a8f Create ".gitignore and ".gitattributes".
   | * caa16d4 Start branch "feat/repoSetup".
   |/  
@@ -113,7 +113,7 @@ The following log graph is _faked_ for easier understanding! If you do this, the
   *   62c16cf Merge branch "feat/repoSetup".
   |\  
   | * a38e260 End branch "feat/repoSetup".
-  | * d20a5c1 Create blank UiPath Process and add standard dependencies.
+  | * d20a5c1 Create blank project and add standard dependencies.
   | * fd45a8f Create ".gitignore and ".gitattributes".
   | * caa16d4 Start branch "feat/repoSetup".
   |/  
@@ -166,7 +166,7 @@ After the rebase, `feature/newFeature` can be merged back into `semver/minor` be
   *   62c16cf Merge branch "feat/repoSetup".
   |\  
   | * a38e260 End branch "feat/repoSetup".
-  | * d20a5c1 Create blank UiPath Process and add standard dependencies.
+  | * d20a5c1 Create blank project and add standard dependencies.
   | * fd45a8f Create ".gitignore and ".gitattributes".
   | * caa16d4 Start branch "feat/repoSetup".
   |/  

@@ -34,10 +34,10 @@ If you have configured a bash environment (e.g. WSL or Git Bash) you can put the
 In bash, use `cd` to change directory to the location on your hard drive where you want a new folder containing your clone to be located.
 Execute `clone.sh` by writing the full path to it's location on the network, and give it the required arguments. The first argument specifies the location of the remote repository. It can be a path to a repository on the shared drive.
 
-Example: (Single quotes prevent `\` from being interpreted as an escape character. UNC path style only works on Git for Windows, e.g. in Git Bash. In WSL, mount the drive under `/mnt`.)
+Example:
 
 ```
-clone.sh repo-uipath-process.git
+clone.sh {{ site.github.repository_url }}
 ```
 
 The optional arguments are useful for cloning existing projects.
@@ -45,12 +45,12 @@ The optional arguments are useful for cloning existing projects.
 The remote can be specified using any git supported protocol, like https.
 
 The `--template` option specifies the template to use for local configuration. Use `--no-template` to force a clone without using a template.
-The second argument is optional, it specifies the path of the folder that will be created for your clone.
+The second argument, `myLocalClone`, is optional, it specifies the path of the folder that will be created for your clone.
 
 Example:
 
 ```
-clone.sh --template repo-windows.template http://p-apptfsalm1:8080/tfs/AppDevScrum/Release%20Management/_git/RPA-LogJSON ./ThatLoggingProject
+clone.sh --template repo-windows.template {{site.github.repository_url}} myLocalClone
 ```
 
 # Next

@@ -79,7 +79,7 @@ The following log graph has "start branch" and "end branch" commits marked with 
   *   62c16cf Merge branch "feat/repoSetup".
   |\  
 » | * a38e260 End branch "feat/repoSetup".
-  | * d20a5c1 Create blank UiPath Process and add standard dependencies.
+  | * d20a5c1 Create blank project and add standard dependencies.
   | * fd45a8f Create ".gitignore and ".gitattributes".
 » | * caa16d4 Start branch "feat/repoSetup".
   |/  

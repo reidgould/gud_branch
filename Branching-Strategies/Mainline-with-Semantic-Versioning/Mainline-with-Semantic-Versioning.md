@@ -24,7 +24,7 @@ has_children: true
 * ca66bb7 Create repository.
 ```
 
-However, UiPath Processes and Libraries are published with [“semver” (Semantic Versioning)](https://semver.org){:target="_blank"} numbers consisting of a major, minor, and patch component. Usage of a three tier mainline strategy aligns well with semver, providing a clear way to publish patches to the current production version while working on features. 
+However, many software packages are published with [“semver” (Semantic Versioning)](https://semver.org){:target="_blank"} numbers consisting of a major, minor, and patch component. Usage of a three tier mainline strategy aligns well with semver, providing a clear way to publish patches to the current production version while working on features. 
 
 * Use branches `semver/major`, `semver/minor`, and `semver/patch` instead of a `master` branch. 
 * Make a commit for each version bump and _tag_ it with the version number like `semver/1.0.0`. 
@@ -63,7 +63,7 @@ The graph shows a repository with minor and patch releases that occurred during 
 *   62c16cf Merge branch "feat/repoSetup".
 |\  
 | * a38e260 End branch "feat/repoSetup".
-| * d20a5c1 Create blank UiPath Process and add standard dependencies.
+| * d20a5c1 Create blank project and add standard dependencies.
 | * fd45a8f Create ".gitignore and ".gitattributes".
 | * caa16d4 Start branch "feat/repoSetup".
 |/  
@@ -127,7 +127,7 @@ Now, when new work is committed, it goes onto `feature/newFeature`.
   *   62c16cf Merge branch "feat/repoSetup".
   |\  
   | * a38e260 End branch "feat/repoSetup".
-  | * d20a5c1 Create blank UiPath Process and add standard dependencies.
+  | * d20a5c1 Create blank project and add standard dependencies.
   | * fd45a8f Create ".gitignore and ".gitattributes".
   | * caa16d4 Start branch "feat/repoSetup".
   |/  
@@ -189,7 +189,7 @@ However, our graph doesn't look right. `top` is no longer the first commit liste
   *   62c16cf Merge branch "feat/repoSetup".
   |\  
   | * a38e260 End branch "feat/repoSetup".
-  | * d20a5c1 Create blank UiPath Process and add standard dependencies.
+  | * d20a5c1 Create blank project and add standard dependencies.
   | * fd45a8f Create ".gitignore and ".gitattributes".
   | * caa16d4 Start branch "feat/repoSetup".
   |/  
@@ -274,7 +274,7 @@ The following log graph now looks very similar to the section above, [Where to C
   *   62c16cf Merge branch "feat/repoSetup".
   |\  
   | * a38e260 End branch "feat/repoSetup".
-  | * d20a5c1 Create blank UiPath Process and add standard dependencies.
+  | * d20a5c1 Create blank project and add standard dependencies.
   | * fd45a8f Create ".gitignore and ".gitattributes".
   | * caa16d4 Start branch "feat/repoSetup".
   |/  
