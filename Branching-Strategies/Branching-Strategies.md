@@ -80,7 +80,7 @@ examples:
 
 __Strategy Details__
 
-* [Mainline with Semantic Versioning](./Mainline-with-Semantic-Versioning.html)
+* [Mainline with Semantic Versioning](./Mainline-with-Semantic-Versioning/Mainline-with-Semantic-Versioning.html)
 * ##### [The gitbranch File - Start & End Branch Commits](./Mainline-with-Semantic-Versioning/The-gitbranch-File-Start-&-End-Branch-Commits.html)
 * ##### [Mainline Commits Must Pass Tests](./Mainline-with-Semantic-Versioning/Mainline-Commits-Must-Pass-Tests.html)
 * ##### [Feature Branches](./Mainline-with-Semantic-Versioning/Feature-Branches.html)
