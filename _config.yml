@@ -11,7 +11,7 @@ logo_DISABLED: "/assets/images/logo.png"
 # JTD links.
 aux_links_new_tab: true
 aux_links:
-  repo: {{ https://github.com/reidgould/gud_branch }}
+  repo: https://github.com/reidgould/gud_branch
   Official Git Book: https://git-scm.com/book/en/v2
 
 # JTD navigation.
